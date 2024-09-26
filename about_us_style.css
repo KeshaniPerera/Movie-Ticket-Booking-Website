@@ -1,0 +1,55 @@
+.theatre_image{
+    margin-top: 80px;
+    height: 200px;
+    width: 100%;
+    background-image: url('images/about us.png');
+    background-position: center;
+}
+.theatre_image h1{
+    color: white;
+    font-size: 40px;
+    padding: 110px 0px 0px 40px;
+    text-align: left;
+    text-shadow: 1px 1px 4px black
+}
+.contact_us h1{
+    color: black;
+    font-size: 40px;
+    padding: 10px 0px 0px 40px;
+    text-align: left;
+  
+}
+.about_us{
+    width: 100%;
+    height: 450px;
+    background-color: white;
+    padding: 40px;
+    color: black;
+    font-size: 16 px;
+    
+}
+.contact_us{
+    width: 100%;
+    height: 450px;
+    background-color: white;
+    padding-top: 20px;
+    color: black;
+    font-size: 16 px;
+}
+hr{
+    margin: 20px 40px 0px 0px;
+}
+.contact_details{
+
+    display: flex;
+}
+.fa-phone, .fa-envelope{
+    margin-right: 20px;
+}
+.advertising, .theatre, .help_desk{
+    margin: 30px;
+    padding: 20px;
+}
+h5{
+    color: #0a0446;
+}

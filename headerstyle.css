@@ -1,0 +1,59 @@
+body{
+    background-color:rgb(75, 72, 72);
+    margin: 0%;
+    padding: 0%;
+    
+}
+.nav-bar{
+
+    width:100%;
+    height:80px;
+    background-color:black;
+    top: 0;
+    left: 0;
+    margin: 0%;
+    position: fixed;
+    z-index: 1;
+    margin-bottom: 100px;
+
+}
+a {
+    font-family: calibri;
+}
+.logo{
+    width: 150px;
+    height: auto;
+
+}
+.logo_li {
+    margin-top: 0px;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    display: flex;
+  }
+li{ 
+    margin-right:60px;
+    margin-top: 30px;
+    
+}
+#about_us  {
+    margin-right: 500px;
+    
+    
+}
+
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+   
+    
+}
+
+a:hover{
+    color:#00cbff;
+    text-decoration: none;
+}

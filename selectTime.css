@@ -1,0 +1,86 @@
+.wrapper{
+    width: 100%;
+    height: 600px;
+    background-image: url("images/BookingBackgroundImage.png");
+    background-position: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    padding-top: 30px;
+    margin-top: 80px;
+    
+}
+.wrapper h3,.wrapFlex h3{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.wrapper .selected_date{
+    color: #2278f0;
+}
+.wrapper h2{
+    color: #00cbff;
+    margin: 20px;
+    font-size: 40px;
+   
+}
+
+.wrapper a{
+    color: white;
+   
+}
+.wrapper input[type="radio"] {
+    display: none;
+    
+}
+.wrapFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+}
+.wrapFlex .date{
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.wrapper label {
+    background-color: #f4f4f4;
+    color:black;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+    
+}
+
+.wrapper input[type="radio"]:checked + label {
+    background-color:#116ef1;
+    color: #fff;
+}
+.wrapper input[type="radio"]:hover + label {
+    background-color:#00cbff;
+    color:black;
+}
+
+.wrapper .submit-button {
+    background-color: #058847;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.submit-button:hover {
+    background-color: #0bd674;
+    color: black;
+}
+
+

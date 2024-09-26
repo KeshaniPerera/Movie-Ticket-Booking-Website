@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(150, 224, 254);
+}
+.wrapper{
+    padding:50px 50px 40px 300px;
+    width: 60%;
+    height: 800px;
+    margin: 0px 0px 80px 160px;
+
+
+}
+table td ,table th{
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+    background-color: rgb(173, 60, 88);
+    color: white;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+a{
+    color: #045bcd;
+}
+
+button:hover {
+    background-color: #980c36;
+}
+
+.wrapper a{
+    text-decoration: none;
+}
+input[type="text"] {
+    border: 2px solid #1072dc;
+    border-radius: 2px;
+   
+}
+
+.showtimes_id_wrapper table td {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+.description{
+    margin-left:-95px ;
+
+}
+.description th {
+    width: 300px;
+    text-align: left;
+  }
+.cast_and_team{
+    display: flex;
+    padding-right: 30px;
+}
+.cast_and_team table{
+    margin-right: 30px;
+}
+.submit { 
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+    background-color: rgb(13, 80, 174);
+    color: white;
+}
+
+
+.submit:hover {
+    background-color: #283377;
+}
+
+

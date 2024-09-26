@@ -1,0 +1,117 @@
+
+body{
+    background-color: rgb(19, 13, 45);
+}
+.now_showing_text,.coming_soon_text{
+    margin: 140px 0px 35px 50px;
+    color: white;
+    font-family: "Corbel Light";
+    letter-spacing: 3px;
+    text-decoration:underline;
+    text-decoration-thickness: 1px;
+    text-underline-position: under;
+   
+
+}
+.coming_soon_text{
+    color:white;
+    margin: 40px 0px 35px 50px;
+    padding-top: 20px;
+}
+.now_showing,.row,.comming_soon_wrap{
+    display:flex;
+    align-items: left;
+    align-content: left;
+    justify-content: left;
+    margin: 20px 20px 20px 50px;
+    
+}
+
+.topmovieitemdata{
+ height: 520px;
+ width:240px;
+ background-color:#050224;
+ border-radius: 5px;
+ margin:20px;
+ box-shadow: -2px -1px 9px #00cbff;
+ transition: transform 0.3s ease;
+
+}
+.topmovieitemdata:hover{
+    transform: scale(1.05);
+}
+
+.movieimage1{
+    height:340px;
+    width:240px;
+
+}
+.moviename{
+    width: 100%;
+    height: 30px;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-family: calibri;
+    font-size: 25px;
+    color: white;
+}
+.buy,.space{
+    margin-top: 60px;
+    font-family: "Montserrat";
+    color:#45d8fd;
+    margin-left: 15px;
+    background-color:#04161a ;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: -1px;
+    border-style:hidden;
+    
+}
+
+.buy:focus {
+    outline: none;
+}
+.moremovies{
+    font-family:"Corbel Light";
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+
+}
+.moreinfo{
+    margin-left: 18px;
+    font-family:"Calibri";
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+.shevron{
+    color: #00cbff;
+}
+.coming_soon{
+    background-color: black;
+}
+.comming_soon_wrap .topmovieitemdata{
+    height: 520px;
+    width:240px;
+    background-color:#050224;
+    border-radius: 0px;
+    margin:20px 20px 0px 20px;
+    box-shadow:none;
+    transition: transform 0.3s ease;
+   
+ }
+.comming_soon_more_info a{
+    color: #007bff;
+}
+.comming_soon_more_info a:hover{
+    color: #00cbff;
+}
+
+
+
+
